@@ -24,7 +24,7 @@ dataset <- read.table("~/Desktop/Analysis/Silacfull.txt", header=TRUE, sep="\t",
 dataset.a <- merge(dataset, a, by="symbol")
 dataset.u <- dataset.a[!duplicated(dataset.a[,1]),] # Removing symbol duplicates
 rownames(dataset.u)<-dataset.u[,1]
-dataset.u[is.na(dataset.u)] <- 0.03
+dataset.u[is.na(dataset.u)] <- 0.03 #setting NA's to background "expression" for analysis
 
 # 3.4 Make a chromosomal list mychroms in list format
 mychroms <- dataset.u[,c(52:54)]
