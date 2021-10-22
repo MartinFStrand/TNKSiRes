@@ -1,6 +1,7 @@
 # TNKSiRes
-Depository for R-scrips and files used in a TNKSi tumor cell responsiveness study
-Publicaion link (contains matherials and methods): 
+Depository for R-scrips and files used in the following study:
+
+Mygland L, Brinch SA, Strand MF, Olsen PA, Aizenshtadt A, Lund K, Solberg NT, Lycke M, Thorvaldsen TE, Espada S, Misaghian D, Page CM, Agafonov O, Nygård S, Chi NW, Lin E, Tan J, Yu Y, Costa M, Krauss S, Waaler J. Identification of response signatures for tankyrase inhibitor treatment in tumor cell lines. iScience. 2021 Jul 1;24(7):102807. doi: 10.1016/j.isci.2021.102807. PMID: 34337362; PMCID: PMC8313754.
 
 Contains scripts and datasets for the following sets of analysis (each in a separate branch): 
 mRNASeq-DEG-heatmap - script and files for generating heatmaps of DEGs from the mRNASeq NOISeq analysis for 5 cancer cell lines
